@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    background-image: url(BG-styling-exercise.jpg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Fjalla One';
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    padding: 2% 3% 0 3%;
+}
+
+.navigation-bar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-bar-item{
+    margin-left: 2.7%;
+    margin-right: 2.7%;
+    padding: 0.09% 1.1%;
+    font-size: 2vw;
+    color: #301027;
+}
+
+.border-login{
+    border-radius: 1.2vw;
+    border: 0.4vw solid #301027;
+}
+
+.content{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    font-size: 8.5vw;
+    color: #301027;
+}
+
+.sub-title{
+    font-size: 1.8vw;
+    color:#301027
+}
+
+.login-button{
+    margin-top: 50px;
+    padding: 1vw 4vw;
+    font font-size: 1.8vw;
+    border-radius:1.2vw;
+    color: white;
+    background-color: #301027;
+}
